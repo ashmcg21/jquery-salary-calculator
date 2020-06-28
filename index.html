@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Hello!!</h1>
+        <p class="lead">
+          Add employee information down below to calculate the salary!
+        </p>
+      </div>
+    </div>
+    <div>
+      <form id="js-form-addEmployee">
+        <div class="form-group">
+          <label for="js-input-firstName">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="js-input-firstName"
+            placeholder="First Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="js-input-lastName">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="js-input-lastName"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="js-input-IDnum">ID Number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="js-input-IDnum"
+            placeholder="ID Number"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="js-input-employeeTitle">Title</label>
+          <input
+            type="text"
+            class="form-control"
+            id="js-input-employeeTitle"
+            placeholder="Title"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="js-input-salary">Salary</label>
+          <input
+            type="text"
+            class="form-control"
+            id="js-input-salary"
+            placeholder="Salary"
+          />
+        </div>
+
+        <button class="btn btn-outline-info">Submit</button>
+      </form>
+    </div>
+
+    <div>
+      <h2 id="js-total"></h2>
+    </div>
+
+    <div>
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID Number</th>
+            <th>Title</th>
+            <th>Salary</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="js-table-body"></tbody>
+      </table>
+    </div>
+  </body>
+</html>

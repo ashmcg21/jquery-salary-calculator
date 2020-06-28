@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+.redText {
+  color: red;
+}
+
+body {
+  background-color: #cbc0d3;
+}
+
+.alignText {
+  text-align: center;
+}
+
+.jumbotron-fluid {
+  background-color: #efd3d7;
+}
